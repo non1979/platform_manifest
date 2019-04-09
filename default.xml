@@ -65,6 +65,7 @@
 
   <!-- forked slimromssecurity Repos -->
   <project path="bionic" name="android_bionic" remote="non" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="non" />
   <project path="frameworks/av" name="frameworks_av" remote="non" />
   <project path="frameworks/base" name="frameworks_base" remote="non" />
   <project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs"  remote="non" />
