@@ -31,7 +31,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="android_dalvik" remote="slimromssecurity" />
-  <project path="external/aac" name="android_external_aac" remote="slimromssecurity" />
+  <project path="external/aac" name="android_external_aac" remote="non" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slimromssecurity" groups="pdk" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="slimromssecurity" />
   <project path="external/conscrypt" name="android_external_conscrypt" remote="slimromssecurity" />
@@ -78,9 +78,11 @@
   <project path="hardware/ril" name="hardware_ril" remote="non" />
   <project path="libcore" name="android_libcore" remote="non" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="non" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="non" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="non" />
   <project path="system/extras/su" name="android_system_extras_su" remote="non" />
   <project path="system/core" name="system_core" remote="non" />
+  <project path="system/vold" name="android_system_vold" remote="non"  />
 
   <project path="vendor/slim" name="vendor_slim" remote="slimromssecurity" />
   <project path="platform_manifest" name="platform_manifest" remote="non" />

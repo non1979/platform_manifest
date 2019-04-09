@@ -36,7 +36,6 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="github" revision="lp5.1" />
-  <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" remote="github" revision="lp5.1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -368,7 +367,6 @@
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="lp5.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="lp5.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -439,7 +437,6 @@
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="lp5.1" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="lp5.1" />
   <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="lp5.1" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="lp5.1" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
