@@ -65,14 +65,12 @@
 
   <!-- forked slimromssecurity Repos -->
   <project path="bionic" name="android_bionic" remote="non" />
-  <project path="external/libxml2" name="android_external_libxml2" remote="github" />
   <project path="frameworks/av" name="frameworks_av" remote="non" />
   <project path="frameworks/base" name="frameworks_base" remote="non" />
   <project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs"  remote="non" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="non" />
   <project path="libcore" name="android_libcore" remote="non" />
   <project path="system/core" name="system_core" remote="non" />
-
 
   <project path="vendor/slim" name="vendor_slim" remote="slimromssecurity" />
   <project path="platform_manifest" name="platform_manifest" remote="non" />
