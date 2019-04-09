@@ -66,7 +66,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slimromssecurity" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="slimromssecurity" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" />
-  <project path="system/core" name="system_core" remote="slimromssecurity" />
+  <project path="system/core" name="system_core" remote="non" />
   <project path="system/media" name="system_media" remote="slimromssecurity" groups="pdk" />
 
 
