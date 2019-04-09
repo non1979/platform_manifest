@@ -423,7 +423,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="lp5.1" />
-  <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="lp5.1" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="lp5.1" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="lp5.1" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="lp5.1" />
