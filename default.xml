@@ -30,6 +30,7 @@
   <project path="build" name="android_build" remote="slimromssecurity" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="android_bionic" remote="non" revision="lp5.1" />
   <project path="dalvik" name="android_dalvik" remote="slimromssecurity" />
   <project path="external/aac" name="android_external_aac" remote="slimromssecurity" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slimromssecurity" groups="pdk" />

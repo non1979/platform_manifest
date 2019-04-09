@@ -7,13 +7,12 @@
            fetch="git://github.com/"
            review="https://review.slimroms.eu/"/>
 
-  <default revision="refs/tags/android-5.1.1_r34"
+  <default revision="refs/tags/android-5.1.1_r38"
            remote="aosp"
            sync-j="4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="lp5.1"  />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="lp5.1" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
