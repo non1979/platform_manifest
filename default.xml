@@ -71,6 +71,7 @@
   <project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs"  remote="non" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="non" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="non" />
+  <project path="hardware/ril" name="hardware_ril" remote="non" />
   <project path="libcore" name="android_libcore" remote="non" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="non" />
   <project path="system/extras/su" name="android_system_extras_su" remote="non" />
