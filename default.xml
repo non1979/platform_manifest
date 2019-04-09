@@ -40,18 +40,18 @@
   <project path="external/jhead" name="android_external_jhead" remote="slimromssecurity" groups="pdk" />
   <project path="external/jpeg" name="android_external_jpeg" remote="slimromssecurity" />
   <project path="external/libpng" name="android_external_libpng" remote="slimromssecurity" groups="pdk" />
-  <project path="external/libvpx" name="android_external_libvpx" remote="slimromssecurity" groups="pdk" />
-  <project path="external/openssl" name="android_external_openssl" remote="slimromssecurity" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="non" groups="pdk" />
+  <project path="external/openssl" name="android_external_openssl" remote="non" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="slimromssecurity" />
   <project path="external/skia" name="android_external_skia" remote="slimromssecurity" />
   <project path="external/sonivox" name="android_external_sonivox" remote="slimromssecurity" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="slimromssecurity" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slimromssecurity" />
-  <project path="frameworks/minikin" name="frameworks_minikin" remote="slimromssecurity" />
+  <project path="frameworks/minikin" name="frameworks_minikin" remote="non" />
   <project path="frameworks/native" name="frameworks_native" remote="non" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="non" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="non" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimromssecurity" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="non" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="slimromssecurity" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slimromssecurity" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slimromssecurity" />
@@ -61,19 +61,23 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slimromssecurity" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="slimromssecurity" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" />
-  <project path="system/media" name="system_media" remote="slimromssecurity" groups="pdk" />
+  <project path="system/media" name="system_media" remote="non" groups="pdk" />
 
   <!-- forked slimromssecurity Repos -->
   <project path="bionic" name="android_bionic" remote="non" />
   <project path="bootable/recovery" name="bootable_recovery" remote="non" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="non" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="non" />
   <project path="frameworks/av" name="frameworks_av" remote="non" />
   <project path="frameworks/base" name="frameworks_base" remote="non" />
   <project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs"  remote="non" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="non" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="non" />
+  <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="non"  />
   <project path="hardware/ril" name="hardware_ril" remote="non" />
   <project path="libcore" name="android_libcore" remote="non" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="non" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="non" />
   <project path="system/extras/su" name="android_system_extras_su" remote="non" />
   <project path="system/core" name="system_core" remote="non" />
 
@@ -84,13 +88,19 @@
   <project path="external/pdfium" name="cm12-amami/android_external_pdfium" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/v8" name="cm12-amami/android_external_chromium_org_v8" remote="github" revision="cm-12.1" />
   <project path="external/sfntly" name="cm12-amami/android_external_sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="cm-12.1" />
-
+  <project path="external/dnsmasq" name="cm12-amami/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-12.1" />
+  <project path="external/sqlite" name="cm12-amami/android_external_sqlite" groups="pdk" remote="github" revision="cm-12.1" />
+  <project path="external/svox" name="cm12-amami/android_external_svox" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
+  <project path="device/common" name="cm12-amami/android_device_common" groups="pdk-cw-fs"  remote="github" revision="cm-12.1" />
+  <project path="packages/providers/UserDictionaryProvider" name="cm12-amami/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
+  <project path="external/libvorbis" name="cm12-amami/android_external_libvorbis" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
+  <project path="external/neven" name="cm12-amami/android_external_neven" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
 
 
   <project path="external/expat" name="android_external_expat" remote="android-security" groups="pdk" />
   <project path="external/freetype" name="android_external_freetype" remote="android-security" groups="pdk" />
   <project path="external/libnl" name="android_external_libnl" remote="non" groups="pdk" revision="aosp-5.1" />
-  <project path="external/libopus" name="android_external_libopus" remote="android-security" groups="pdk" />
-  <project path="frameworks/ex" name="android_frameworks_ex" remote="android-security" />
+  <project path="external/libopus" name="android_external_libopus" remote="non" groups="pdk" revision="aosp-5.1" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="non" revision="aosp-5.1" />
 
 </manifest>
