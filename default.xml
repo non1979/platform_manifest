@@ -43,8 +43,8 @@
   <project path="external/libvpx" name="android_external_libvpx" remote="non" groups="pdk" />
   <project path="external/openssl" name="android_external_openssl" remote="non" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="slimromssecurity" />
-  <project path="external/skia" name="android_external_skia" remote="slimromssecurity" />
-  <project path="external/sonivox" name="android_external_sonivox" remote="slimromssecurity" groups="pdk" />
+  <project path="external/skia" name="android_external_skia" remote="non" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="non" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="slimromssecurity" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slimromssecurity" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="non" />
@@ -57,15 +57,16 @@
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slimromssecurity" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="non" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slimromssecurity" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slimromssecurity" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="non" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slimromssecurity" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="slimromssecurity" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="non" />
   <project path="system/media" name="system_media" remote="non" groups="pdk" />
 
   <!-- forked slimromssecurity Repos -->
   <project path="bionic" name="android_bionic" remote="non" />
   <project path="bootable/recovery" name="bootable_recovery" remote="non" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="non" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="non" />
   <project path="external/libxml2" name="android_external_libxml2" remote="non" />
   <project path="frameworks/av" name="frameworks_av" remote="non" />
