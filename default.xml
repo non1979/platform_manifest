@@ -24,7 +24,7 @@
   <project name="android_device_samsung_i9300" path="device/samsung/i9300" remote="non" />
   <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="non" />
   <project name="android_hardware_samsung" path="hardware/samsung" remote="non" />
-  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="non" />
+  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="non" revision="test" />
 
   <!-- Patched SlimRoms Repos -->
   <project path="build" name="android_build" remote="non" >
