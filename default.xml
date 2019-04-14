@@ -105,6 +105,8 @@
 
   <!-- LineageOS references from higher branches -->
   <project name="LineageOS/android_external_freetype" path="external/freetype" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="cm-14.1" />
+
 
   <!-- AOSP references from higher releases -->
   <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r81"/>
