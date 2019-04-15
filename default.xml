@@ -64,7 +64,6 @@
 
   <!-- forked slimromssecurity Repos -->
   <project path="bionic" name="android_bionic" remote="non" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="non" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="non" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="non" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="non" />
@@ -87,8 +86,8 @@
   <project path="vendor/slim" name="vendor_slim" remote="non" />
   <project path="platform_manifest" name="platform_manifest" remote="non" />
 
-
-
+  <!-- amani forks -->
+  <project path="bootable/recovery" name="cm12-amami/android_bootable_recovery" groups="pdk"  remote="github"  revision="cm-12.1" />
   <project path="external/giflib" name="cm12-amami/android_platform_external_giflib" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="cm-12.1" />
   <project path="external/pdfium" name="cm12-amami/android_external_pdfium" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/v8" name="cm12-amami/android_external_chromium_org_v8" remote="github" revision="cm-12.1" />
@@ -102,11 +101,12 @@
   <project path="packages/apps/ManagedProvisioning" name="cm12-amami/android_packages_apps_ManagedProvisioning" remote="github" revision="cm-12.1" />
   <project path="external/libhevc" name="cm12-amami/android_external_libhevc"  remote="github" revision="cm-12.1" />
 
-
   <!-- LineageOS references from higher branches -->
   <project name="LineageOS/android_external_freetype" path="external/freetype" groups="pdk" remote="github" revision="cm-13.0" />
-  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="cm-14.1" />
-
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="cm-12.1" />
+  <project path="external/libtar" name="LineageOS/android_external_libtar" remote="github" revision="cm-12.1" />
+  <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="cm-12.1" />
 
   <!-- AOSP references from higher releases -->
   <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r81"/>
