@@ -108,7 +108,7 @@
   <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="cm-12.1" />
   <project path="external/lzma" name="LineageOS/android_external_lzma" remote="github" revision="cm-12.1"/>
-  <project path="external/libselinux" name="LineageOS/android_external_libselinux" groups="pdk" />
+  <project path="external/libselinux" name="LineageOS/android_external_libselinux" groups="pdk" remote="github" revision="cm-12.1" />
 
   <!-- AOSP references from higher releases -->
   <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r81"/>
