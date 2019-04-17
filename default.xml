@@ -51,6 +51,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="non" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="non" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="non" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="non" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="slimromssecurity" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="non" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slimromssecurity" />
