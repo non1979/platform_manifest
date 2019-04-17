@@ -85,6 +85,7 @@
   <project path="vendor/slim" name="vendor_slim" remote="non" />
   <project path="platform_manifest" name="platform_manifest" remote="non" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="non" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="non" />
 
   <!-- amani forks -->
   <project path="bootable/recovery" name="cm12-amami/android_bootable_recovery" groups="pdk"  remote="github"  revision="cm-12.1" />
@@ -114,7 +115,6 @@
   <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-12.1" />
   <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="external/conscrypt" name="LineageOS/android_external_conscrypt" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="github" revision="cm-12.1" />
 
   <!--  references from higher releases -->
   <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" remote="github" revision="cm-13.0" />
